@@ -44,13 +44,26 @@ header > h1{
 
 .card > *{
     color: rgb(43, 43, 43);
-    
+    width: inherit;
+    border-radius: 12px;
 }
 
 ul{
     list-style-type: circle;
+    line-height: 160%;
 }
+
+ol > li{
+    line-height: 140%;
+    margin: 2% 0;
+}
+
+
 
 ul>li>a{
     text-decoration: none;
+}
+
+footer{
+    font-size: small;
 }
